@@ -22,7 +22,8 @@ pip install pickle
 ```
 git clone https://github.com/AlanSyue/AppDataNotify.git
 ```
-2. open the `setting.py` file , and set the following value :
+2. change the `settingExample.py` file name to `setting.py`,
+open the `setting.py` file , and set the following value :
 ```
 setting={
 	# set the following tool's account:google play console , iTunes connect , firebase , appannie
