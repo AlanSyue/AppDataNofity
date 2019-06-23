@@ -20,7 +20,7 @@ pip install pickle
 # How to use it
 1. clone this repo to your local place :
 ```
-git clone 
+git clone https://github.com/AlanSyue/AppDataNofity.git
 ```
 2. open the `setting.py` file , and set the following value :
 ```
