@@ -1,4 +1,4 @@
-# AppDataNofity
+# AppDataNotify
 This tool will automate collect the Apps data from the following sources:
 1. Google Play Console ( https://developer.android.com/distribute/console/ )
 2. iTunes Connect ( https://itunesconnect.apple.com/ )
@@ -20,7 +20,7 @@ pip install pickle
 # How to use it
 1. clone this repo to your local place :
 ```
-git clone https://github.com/AlanSyue/AppDataNofity.git
+git clone https://github.com/AlanSyue/AppDataNotify.git
 ```
 2. open the `setting.py` file , and set the following value :
 ```
