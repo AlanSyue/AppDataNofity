@@ -77,6 +77,6 @@ python start.py
 
 5. use crontab to schedule getting daily Apps data ( for example : every 8:30 am execute start.py )
 ```
-30    8     *     *     *     python /AppDataNofity/start.py
+30    8     *     *     *     python /AppDataNotify/start.py
 
 ```
