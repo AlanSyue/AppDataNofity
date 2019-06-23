@@ -53,7 +53,7 @@ class startCrawler():
 
 	def getData(account,pwd,playConsoleAccount,StatisticsPlace,googleAppId,iOSAppID,firebaseProjectName,country,andro_category,iOS_category):
 		today = datetime.date.today()
-		yesterday = today - datetime.timedelta(days=2)
+		yesterday = today - datetime.timedelta(days=1)
 
 		yesterday_split=str(yesterday).split('-')
 		playconsole_date=yesterday_split[0]+yesterday_split[1]+yesterday_split[2]
