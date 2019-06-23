@@ -15,10 +15,10 @@ def init():
 					'appannie':'<account>'},
 
 		# set the following tool's password:google play console , iTunes connect , firebase , appannie
-		'pwd':{'playconsole':'<password>@',
-					'itunes':'<password>@',
-					'firebase':'<password>@',
-					'appannie':'<password>@'},
+		'pwd':{'playconsole':'<password>',
+					'itunes':'<password>',
+					'firebase':'<password>',
+					'appannie':'<password>'},
 
 		# You can get playConsoleAccount, StatisticsPlace 's value from google play console'
 		# see: https://play.google.com/apps/publish/?account={playConsoleAccount}#AppDashboardPlace:p={StatisticsPlace}
