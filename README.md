@@ -1,0 +1,2 @@
+# AppDataNofity
+his tool will automate collect the Apps data from the following sources: 1. Google Play Console ( https://developer.android.com/distribute/console/ ) 2. iTunes Connect ( https://itunesconnect.apple.com/ ) 3. firebase analytics ( https://firebase.google.com/ ) 4. App Annie ( https://www.appannie.com/cn/ ) And it will send the mail to you via gmail you set, and this mail contain the data we crawled.
