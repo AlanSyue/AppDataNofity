@@ -53,12 +53,10 @@ setting={
 	'sendTo_list':['<email address>','<email address>'.....],
 	'email_title':"today's App data, let's see it!", # the eamil title you want to set to 
 }
-
 ```
 3. execute the start.py :
 ```
 python start.py
-
 ```
 4. You will receive the email, and the email's format will like :
 
@@ -78,5 +76,4 @@ python start.py
 5. use crontab to schedule getting daily Apps data ( for example : every 8:30 am execute start.py )
 ```
 30    8     *     *     *     python /AppDataNotify/start.py
-
 ```
