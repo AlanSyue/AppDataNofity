@@ -1,9 +1,10 @@
-# AppDataNofity
+# AppDataNotify
 This tool will automate collect the Apps data from the following sources:
 1. Google Play Console ( https://developer.android.com/distribute/console/ )
 2. iTunes Connect ( https://itunesconnect.apple.com/ )
 3. firebase analytics ( https://firebase.google.com/ )
 4. App Annie ( https://www.appannie.com/cn/ )
+
 And it will send the mail to you via gmail you set, and this mail contain the data we crawled.
 
 # Installation
@@ -20,9 +21,10 @@ pip install pickle
 # How to use it
 1. clone this repo to your local place :
 ```
-git clone https://github.com/AlanSyue/AppDataNofity.git
+git clone https://github.com/AlanSyue/AppDataNotify.git
 ```
-2. open the `setting.py` file , and set the following value :
+2. change the `settingExample.py` file name to `setting.py`,
+open the `setting.py` file , and set the following value :
 ```
 setting={
 	# set the following tool's account:google play console , iTunes connect , firebase , appannie
@@ -53,12 +55,10 @@ setting={
 	'sendTo_list':['<email address>','<email address>'.....],
 	'email_title':"today's App data, let's see it!", # the eamil title you want to set to 
 }
-
 ```
 3. execute the start.py :
 ```
 python start.py
-
 ```
 4. You will receive the email, and the email's format will like :
 
@@ -77,6 +77,5 @@ python start.py
 
 5. use crontab to schedule getting daily Apps data ( for example : every 8:30 am execute start.py )
 ```
-30    8     *     *     *     python /AppDataNofity/start.py
-
+30    8     *     *     *     python /AppDataNotify/start.py
 ```
