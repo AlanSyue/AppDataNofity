@@ -1,5 +1,5 @@
 # AppDataNotify
-This tool will automate collect the Apps data from the following sources:
+This tool will automatically collect the App's data from the following sources:
 1. Google Play Console ( https://developer.android.com/distribute/console/ )
 2. iTunes Connect ( https://itunesconnect.apple.com/ )
 3. firebase analytics ( https://firebase.google.com/ )
